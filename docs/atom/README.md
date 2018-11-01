@@ -6,8 +6,6 @@ You may already be accustomed to using an Integrated Development Environment \(I
 
 The labs will focus more on Git command line than the code, so this is a good opportunity to give Atom a try!  If you don't like it, you can always switch back.
 
-This section will help guide you through the following steps:
-{% include "./navigation.html" %}
 
 ## Download and install Atom {#download}
 

@@ -6,9 +6,6 @@ The default command line tool on Macs is "Terminal". For a better experience we 
 Linux users can skip the iTerm2 instructions and jump straight to oh-my-zsh.
 {% endhint %}
 
-This section will help guide you through the following steps:
-{% include "./navigation-iterm.html" %}
-
 
 ## Download and install iTerm2 {#iterm2}
 1. Open the iTerm2 website by navigating to [https://www.iterm2.com](https://www.iterm2.com).

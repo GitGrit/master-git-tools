@@ -6,14 +6,10 @@ However, the Windows command prompt does not offer much flexibility and function
 
 Cmder wraps different shells (command line interfaces) that makes it versatile. It also includes Git, all packaged together.
 
-This section will help guide you through the following steps:
-{% include "./navigation-cmder.html" %}
 
 
 ## Install Cmder {#install} <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>
 
-This section will help guide you through the following steps:
-{% include "./navigation-cmder-install.html" %}
 
 ### Download Cmder {#download} <span class="navigate-top"><a href="#install" title="Take me to the top of section"><i class="fa fa-caret-square-o-up" aria-hidden="true"></i></a></span>
 1. Open the Cmder website by navigating to [http://www.cmder.net](http://www.cmder.net).

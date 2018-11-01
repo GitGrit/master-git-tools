@@ -2,9 +2,6 @@
 
 # Organization: Create a Folder For Lab Work
 
-This section will help guide you through the steps listed below.
-{% include "./navigation.html" %}
-
 ## Create a folder {#create-dir}
 Create a folder in your home directory called "MasterGitInADay". We’ll create folders here for our repositories used throughout the labs.
 {% hint style='tip' %}
