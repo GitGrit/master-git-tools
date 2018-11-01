@@ -3,4 +3,5 @@ node_modules
 _book
 *.epub
 *.mobi
-*.pdf.DS_Store
+*.pdf
+*.DS_Store
