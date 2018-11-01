@@ -1,0 +1,23 @@
+{
+    "root": "./docs",
+    "structure": {
+        "readme": "README.md",
+        "summary": "SUMMARY.md"
+    },
+    "plugins": [
+        "sectionx",
+        "custom-favicon",
+        "hints",
+        "codeblock-label",
+        "anchors"
+    ],
+    "pluginsConfig": {
+        "favicon": "docs/assets/favicon.ico",
+        "hints": {
+            "info": "fa fa-info-circle fa-lg",
+            "tip": "fa fa-check-circle fa-lg",
+            "danger": "fa fa-exclamation-circle fa-lg",
+            "working": "fa fa-wrench fa-lg"
+        }
+    }
+}

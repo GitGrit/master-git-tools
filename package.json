@@ -1,0 +1,34 @@
+{
+  "name": "master-git-tools",
+  "version": "0.0.0",
+  "description": "Instructions for installing Master Git in a Day workshop tools",
+  "main": "docs/README.md",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "gitbook-plugin-anchors": "^0.7.1",
+    "gitbook-plugin-codeblock-label": "^1.0.1",
+    "gitbook-plugin-custom-favicon": "0.0.4",
+    "gitbook-plugin-hints": "^1.0.2",
+    "gitbook-plugin-sectionx": "^3.1.0"
+  },
+  "devDependencies": {
+    "gitbook-cli": "^2.3.2"
+  },
+  "scripts": {
+    "docs:install": "gitbook install",
+    "docs:build": "gitbook build",
+    "start": "gitbook serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GitGrit/MasterGitInADayWorksheetTools.git"
+  },
+  "author": "GitGrit",
+  "license": "CC-BY-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/GitGrit/MasterGitInADayWorksheetTools/issues"
+  },
+  "homepage": "https://github.com/GitGrit/MasterGitInADayWorksheetTools#readme"
+}
