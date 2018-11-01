@@ -44,7 +44,7 @@ Then you provide the name of the directory that you want to create.
 Most command line terminals (including the ones we use) are not case sensitive - but some are!  For our purposes, a folder named MasterGitInADay is the same as one named mastergitinaday.
 {% endhint %}
 
-<!--sec data-title="Windows Only: Enable viewing file extensions" data-id="section0" data-show=true data-collapse=true ces-->
+### Windows Only: Enable viewing file extensions
 1. Navigate to the folder you created using **File Explorer**.
 
 1. In the toolbar, select **View** and enable **File name extensions**
