@@ -19,7 +19,8 @@
   },
   "scripts": {
     "build": "gitbook build",
-    "serve": "gitbook serve",
+    "serve:book": "gitbook serve",
+    "postinstall": "npm run build",
     "start": "node server.js"
   },
   "repository": {
