@@ -4,7 +4,7 @@ The default command line tool in Windows is the "Command Prompt". You can find i
 
 However, the Windows command prompt does not offer much flexibility and functionality, so we will use Cmder.
 
-Cmder wraps different shells (command line interfaces) that makes it versatile. It also includes Git, all packaged together.
+Cmder wraps different shells (command line interfaces) that makes it versatile. It also includes Git, all packaged together.  Be sure to follow all of the instructions below; There are specific nuances that, if not handled during installation, will cause Cmder to not start correctly.
 
 
 
@@ -14,7 +14,7 @@ Cmder wraps different shells (command line interfaces) that makes it versatile. 
 ### Download Cmder {#download} <span class="navigate-top"><a href="#install" title="Take me to the top of section"><i class="fa fa-caret-square-o-up" aria-hidden="true"></i></a></span>
 1. Open the Cmder website by navigating to [http://www.cmder.net](http://www.cmder.net).
 
-1. Scroll down to the Download section and click on "Download Full" to download Cmder. This might take a while.
+1. Scroll down to the Download section and click on "Download Full" to download Cmder.
 
 1. While Cmder is downloading, let's get started on creating a folder by opening **File Explorer**.
 
@@ -40,13 +40,13 @@ If you can't find your home directory, type `%USERPROFILE%` in the file location
 Make sure to unblock the download if this checkbox exists. Otherwise, the installation looks successful, but Cmder cannot start up and becomes unusable.
    {% endhint %}
 
-1. Right click on the file again and select **Extract All...** and type in the location of your Cmder folder you created. Make sure to check "Show extracted files when complete" and click on **Extract**. When extract is complete, the file explorer will show your Cmder folder.
+1. Right click on the file again and select **Extract All...** and *type in the location of your Cmder folder you created*. Make sure to check "Show extracted files when complete" and click on **Extract**. When extract is complete, the file explorer will show your Cmder folder.
 
    ![](images/extract-to-destination.PNG)
 
-   {% hint style='tip' %}
+<div class="tip">
 Your Cmder folder location should be `C:\Users\[Your Login Name]\Cmder`. If you can't find it, type `%USERPROFILE%\Cmder`.
-{% endhint %}
+</div>
 
 
 ### Install additional required files {#additional-files} <span class="navigate-top"><a href="#install" title="Take me to the top of section"><i class="fa fa-caret-square-o-up" aria-hidden="true"></i></a></span>
