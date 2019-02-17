@@ -17,9 +17,9 @@
     "gitbook-cli": "^2.3.2"
   },
   "scripts": {
-    "docs:install": "node_modules/gitbook-cli/bin/gitbook.js serve install",
-    "docs:build": "node_modules/gitbook-cli/bin/gitbook.js serve build",
-    "start": "node_modules/gitbook-cli/bin/gitbook.js serve serve"
+    "docs:install": "node_modules/gitbook-cli/bin/gitbook.js install",
+    "docs:build": "node_modules/gitbook-cli/bin/gitbook.js build",
+    "start": "node_modules/gitbook-cli/bin/gitbook.js serve"
   },
   "repository": {
     "type": "git",
