@@ -41,27 +41,28 @@ Make sure to unblock the download if this checkbox exists. Otherwise, the instal
    {% endhint %}
 
 1. Right click on the file again and select **Extract All...** and *type in the location of your Cmder folder you created*. Make sure to check "Show extracted files when complete" and click on **Extract**. When extract is complete, the file explorer will show your Cmder folder.
-
-   ![](images/extract-to-destination.PNG)
-
-<div class="tip">
+{% hint style='tip' %}
 Your Cmder folder location should be `C:\Users\[Your Login Name]\Cmder`. If you can't find it, type `%USERPROFILE%\Cmder`.
-</div>
+{% endhint %}
+   ![](images/extract-to-destination.PNG)
 
 
 ### Install additional required files {#additional-files} <span class="navigate-top"><a href="#install" title="Take me to the top of section"><i class="fa fa-caret-square-o-up" aria-hidden="true"></i></a></span>
 1.  Right click on Cmder application and click on **Run as administrator**. A User Account Control dialog will pop up. Click **Yes**.
+   ![](images/runas_admin.PNG)
 
-1. Cmder will display an warning dialog asking to install extra files. Click **Unblock and Continue**.
+1. Cmder will display a warning dialog asking to install extra files. Note that it may look different from the image below.  Regardless, click **Unblock and Continue**.
 
    ![](images/conemu-install.PNG)
-1. Cmder screen will display and process the required files in the background. When you return to the command prompt, you're done!
+1. Cmder screen will display and process the required files in the background. When you return to the command prompt, you're done!  It should look similar to this:
+   ![](images/cmder_finish.PNG)
 
 
 ### Verify installation {#verify} <span class="navigate-top"><a href="#install" title="Take me to the top of section"><i class="fa fa-caret-square-o-up" aria-hidden="true"></i></a></span>
 1. Close the Cmder dialog by typing `exit` and pressing **Enter** or by clicking on the **X** in the upper right corner.
 
-1. Search for "cmder" in your taskbar. Windows should suggest "Cmder.exe Desktop app" as a best match. Right click on it and click on **Run as administrator**. A User Account Control dialog will pop up. Click **Yes**. If your only option after a right click is **Open file location**, select it and then right click on cmder.exe to run as administrator.
+1. Search for "cmder" in your taskbar. Windows should suggest "Cmder.exe Desktop app" as a best match. Right click on it and click on **Run as administrator**. A User Account Control dialog will pop up. Click **Yes**.  If your only option after a right click is **Open file location**, select it and then right click on cmder.exe to run as administrator.
+   ![](images/runas_admin_startmenu.PNG)
 
    {% hint style='danger' %}
 Always run Cmder as administrator. Doing so will ensure Cmder has file access it needs.
@@ -69,33 +70,24 @@ Always run Cmder as administrator. Doing so will ensure Cmder has file access it
 
 1. Type `git --version`, press `Enter`, and verify the output. You must have git version 2.16.0 or higher.
 
-### Optional- Pin to Start menu {#optional-pin} <span class="navigate-top"><a href="#install" title="Take me to the top of section"><i class="fa fa-caret-square-o-up" aria-hidden="true"></i></a></span>
-1. Use the **File Explorer** to open the "Cmder" folder in your home directory. You probably already have this folder open from installation.
+### Optional - Pin to taskbar {#optional-pin} <span class="navigate-top"><a href="#install" title="Take me to the top of section"><i class="fa fa-caret-square-o-up" aria-hidden="true"></i></a></span>
+1. With Cmder already running **as administrator**, right click on it in the task bar and choose **Pin to taskbar**.
+
+
+### Optional - Pin to Start menu {#optional-pin} <span class="navigate-top"><a href="#install" title="Take me to the top of section"><i class="fa fa-caret-square-o-up" aria-hidden="true"></i></a></span>
+1. Use the **File Explorer** to open the "Cmder" folder in your `%USERPROFILE%` directory. You probably already have this folder open from installation.
 
 1. Right click on Cmder application and select **Pin to Start**.
 
 1. When you start Cmder, right click on the pinned icon, select **More** <i class="fa fa-long-arrow-right"></i> **Run as administrator**.
 
 
-{% hint style='tip' %}
-Cmder helps identify certain things with different symbols and colors. Here are some of the symbols and colors you'll come across.
-
-* Your prompt will look like a lambda \(**λ**\).
-
-* The name of the directory \(folder\) you’re in will displayed in olive-green.
-
-* If you’re in a Git repository, your branch name will display right after the name of the directory you're in.
-
-* If you have uncommitted version control changes made in the repository that you’re in, the branch name will turn red.
-
-* You can edit settings (such as changing color themes or font size) by clicking the hamburger menu on the bottom right of the Cmder window and selecting **Settings...**.
-{% endhint %}
-
-
 <!-- Trick markdown to give a little extra space -->
 
 ## Using Cmder {#using-cmder} <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>
 {% include "./using-cmder.md" %}
+
+
 
 <!-- Trick markdown to give a little extra space -->
 
