@@ -7,12 +7,13 @@
     "doc": "docs"
   },
   "dependencies": {
-    "gitbook-plugin-anchors": "^0.7.1",
-    "gitbook-plugin-codeblock-label": "^1.0.1",
+    "express": "^4.15.2",
+    "gitbook-cli": "2.3.2",
+    "gitbook-plugin-anchors": "0.7.1",
+    "gitbook-plugin-codeblock-label": "1.0.1",
     "gitbook-plugin-custom-favicon": "0.0.4",
-    "gitbook-plugin-hints": "^1.0.2",
-    "gitbook-plugin-sectionx": "^3.1.0",
-    "gitbook-cli": "^2.3.2"
+    "gitbook-plugin-hints": "1.0.2",
+    "gitbook-plugin-sectionx": "3.1.0"
   },
   "scripts": {
     "docs:install": "node_modules/gitbook-cli/bin/gitbook.js install",
@@ -28,5 +29,8 @@
   "bugs": {
     "url": "https://github.com/GitGrit/MasterGitInADayWorksheetTools/issues"
   },
-  "homepage": "https://github.com/GitGrit/MasterGitInADayWorksheetTools#readme"
+  "homepage": "https://github.com/GitGrit/MasterGitInADayWorksheetTools#readme",
+  "engines": {
+    "node": "10.x"
+  }
 }
