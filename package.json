@@ -20,7 +20,7 @@
   "scripts": {
     "build": "gitbook build",
     "serve": "gitbook serve",
-    "start": "node server.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
