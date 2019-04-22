@@ -1,13 +1,13 @@
 ![](/assets/gitLogo.png)
 
 # Git / GitHub
-[**Git**](https://git-scm.org) is version control software, and [**GitHub**](https://github.com) is a cloud-based, proprietary PAAS (platform as a service) for Git.  More succinctly, GitHub is a web site that helps people store and share code.  This is where the repositories you create in the labs will be hosted.
+[**Git**](https://git-scm.org) is version control software, and [**GitHub**](https://github.com) is a cloud-based, proprietary PAAS (platform as a service) for Git.  More succinctly, GitHub is a web site that helps people store and share code.  This is where the repositories you create in the labs will be hosted.  Because these repositories are just for learning purposes, you can create/use a personal GitHub account.
 
 ## Create a Github account
 If you already have a GitHub account, you can skip to the next section.
 
-1. In your browser, [sign up for a GitHub account](https://github.com/join?source=header-home) by entering a username, email address, and password.
-1. In Step 2: Choose your plan, select **Unlimited public repositories for free** and click **Continue**.
+1. In your browser, [sign up for a GitHub account](https://github.com/join?source=header-home) by entering a username, email address, and password.  
+1. In Step 2: Choose your plan, select the free plan and click **Continue**.
 1. Fill out the survey or skip Step 3.
 
 ## Install Git
@@ -15,9 +15,7 @@ Follow the appropriate section below based on your operating system.
 
 ### Windows
 
-If you installed Cmder, you already have Git! Give yourself a high-five!
-
-Now all you have to do is configure some Git settings.
+If you installed Cmder, you already have Git, but you still need to configure some Git settings.
 
 In this section we will:
 1. Set your name in Git

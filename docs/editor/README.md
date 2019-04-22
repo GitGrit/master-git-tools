@@ -7,21 +7,33 @@ You may already be accustomed to using an Integrated Development Environment \(I
 The labs will focus more on Git command line than the code, so this is a good opportunity to give Atom a try!  If you don't like it, you can always switch back.
 
 
-## Download and install Atom {#download}
+## Download and Install Atom {#download}
 
 1. Open the Atom website by navigating to [https://atom.io](https://atom.io).
 
 1. Download the file then open it and follow the prompts as they appear. Click **Finish** when prompted to complete the installation.
 
-## Configuring Atom {#configure}
-Next, to get the most out of Atom, we need to install packages. The terms "package" and "plugins" are interchangeable in Atom.
+## Configure Atom {#configure}
 
-If you have ever downloaded and installed a custom font to use in your word processing program, installing plugins is similar. They are features that can be individually installed to enhance your experience in the Atom IDE.
+### Set Atom as Your Git Editor &amp; Diff/Merge tool
+By default, Git uses the vi editor to create and edit your commit and tag messages. You can change this to Atom using the following commands.
 
-There are plugins required as part of the labs and there are optional plugins you can install later if desired.
+In addition to the editor used to write commit and tag messages, you should also configure Git to use your preferred editor for "diffing" and merging files.  This will come into play when there are conflicts to resolve or other files you want to compare with one another.
+
+`git config --global core.editor "atom --wait"`
+
+`git config --global merge.tool atom`
+
+`git config --global mergetool.atom.cmd "atom --wait $MERGED"`
+
+`git config --global diff.tool atom`
+
+`git config --global difftool.atom.cmd "atom --wait --diff $LOCAL $REMOTE"`
 
 
-### Required Packages
+### Install Required Packages
+Next, to get the most out of Atom, we need to install packages. The terms "package" and "plugins" are interchangeable in Atom.  Some plugins are required as part of the labs and some are optional that you can install later if desired.
+
 {% include "./plugins-installation.md" %}
 ![](images/packageInstall.png)
 
@@ -32,7 +44,7 @@ If you are prompted to install any dependencies select **Yes** to install them.
 {% endhint %}
 
 
-## (optional) Review tips for using Atom {#tips}
+## (optional) Tips for using Atom {#tips}
 
 ### Uninstall a Package
  * To uninstall a package open the settings like we did above.  Choose **Packages** from the settings menu and search for the package you’d like to uninstall.  Click on the **Uninstall** button.

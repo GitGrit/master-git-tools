@@ -32,3 +32,8 @@
 .info {
 
 }
+
+.book .book-body .page-wrapper .page-inner section.normal code {
+  background: #000 !important;
+  color: #f0f0f0 !important;
+}

@@ -7,10 +7,10 @@
 * [Windows Cmder](command-line/cmder.md)
 
 ### Code Editor
-* [Atom](atom/README.md)
+* [Atom](editor/README.md)
 
 ### Directory Organization
-* [MasterGitTools Directory](directory/README.md)
+* [MasterGitInADay Directory](directory/README.md)
 
 ### Version Control
 * [Git / GitHub](git/README.md)
