@@ -8,7 +8,7 @@ The name "vi" is derived from an abbreviation for the EXtended line editor comma
 
 You may already be accustomed to using an Integrated Development Environment \(IDE\) such as Visual Studio, Sublime, Eclipse, WebStorm, etc.  Technically, you can use any IDE for the labs, but vim is the one we'll be using in the instructions.  The best part about using vim is that it's already installed in all unix-style terminals, so if you installed iTerm2 or Commander, you're set.  This also means it's available on any remote \*nix style server you might connect to in the future.
 
-The worst part about using vim, however, is that it isn't very intuitive.  This workshop is a good opportunity to learn vim if you've been avoiding it.  vi has three "modes": command mode, insert mode, and escape mode.  We'll talk about these more in a minute.  For now, try running `vi` from anywhere in your terminal just to get a feel for things.
+The worst part about using vim, however, is that it isn't very intuitive.  This workshop is a good opportunity to learn vim if you've been avoiding it.  vi has three "modes": command mode, insert mode, and escape mode.  We'll talk about these more in a minute.  For now, try running `vi` from anywhere in your terminal just to get a feel for it.
 
 Certain Git commands require a commit message or other kinds of text input.  When this happens, Git checks to see if you've configured a text editor.  If you haven't, it will open vim.  You may not even realize this has happened, because the terminal doesn't look very different.  But if you look closely, you're in "vim land", and it's waiting for you to type a command or text.
 
