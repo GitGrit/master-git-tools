@@ -7,7 +7,7 @@
 * [Windows Cmder](command-line/cmder.md)
 
 ### Code Editor
-* [Atom](editor/README.md)
+* [vim](editor/README.md)
 
 ### Directory Organization
 * [MasterGitInADay Directory](directory/README.md)
