@@ -13,4 +13,6 @@
 * [MasterGitInADay Directory](directory/README.md)
 
 ### Version Control
-* [Git / GitHub](git/README.md)
+* [Git, GitHub, BitBucket... oh my!](git/README.md)
+* [Create a social Git account](git/account.md)
+* [Install Git locally](git/install.md)
