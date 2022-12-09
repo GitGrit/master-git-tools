@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "dependencies": {
-    "express": "^4.15.2",
+    "express": "^4.17.3",
     "gitbook-plugin-anchors": "0.7.1",
     "gitbook-plugin-codeblock-label": "1.0.1",
     "gitbook-plugin-custom-favicon": "0.0.4",
